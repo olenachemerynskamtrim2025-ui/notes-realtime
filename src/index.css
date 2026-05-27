@@ -1,0 +1,36 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --border: #e8e4dc;
+    --text: #1a1814;
+    --text-muted: #8a8478;
+    --accent: #c8a96e;
+    --accent-dark: #a8894e;
+    --danger: #e05555;
+    --green: #4a9e6b;
+    --radius: 12px;
+    --shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+input, select, textarea {
+    font-family: 'DM Sans', sans-serif;
+}
